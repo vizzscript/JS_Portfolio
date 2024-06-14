@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Tech.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Technologies";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "WireShark",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Wireshark is a free and open-source packet analyzer used for network troubleshooting, analysis, this package is used to detect the specific interface such as Ethernet, WiFi, LAN etc packet data obtained from the wireshark tool.",
+    url: "https://www.npmjs.com/package/wireshark",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Books Record Management",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a book record management API Backened for the management of records and books",
+    url: "https://github.com/vizzscript/Book-record-management-10567",
   },
   {
-    title: "My Resume Site",
+    title: "NextHeirs",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Blockchain based inheritance management system using quantum resistant involves the creation of a blockchain system that handles the management of wills and inheritance. It aims to provide a secure and transparent platform for the distribution of assets according to a person's will.",
+    url: "https://github.com/vizzscript/NextHeirs",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "V-Folio",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is my personal portfolio site made by using React.js and TailwindCSS included all the projects made and my first resume since 2022. ",
+    url: "https://vratik-zade.netlify.app/",
   },
 ];
 
